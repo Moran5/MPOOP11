@@ -6,7 +6,7 @@ public class HiloB implements Runnable{
     for(int i=0;i<10;i++){
       System.out.println("Iteración "+i+" del "+Thread.currentThread().getName());
     }
-    System.out.println("Termian el hilo "+Thread.currentThread().getName());
+    System.out.println("Termina el hilo "+Thread.currentThread().getName());
   }
 
 }
